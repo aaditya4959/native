@@ -1,5 +1,5 @@
 import { Text, View } from "react-native";
-import "./globals.css";
+import "../globals.css";
 
 export default function Index() {
   return (
@@ -7,5 +7,6 @@ export default function Index() {
       <Text className="text-5xl text-primary font-bold">Welcome!</Text>
       <Text className="text-accent">This is a sample applicaiton</Text>
     </View>
+
   );
 }
